@@ -291,25 +291,25 @@ img {
   z-index: var(--z-back);
 }
 .skills__java {
-  width: 80%;
+  width: 100%;
 }
 .skills__react {
-  width: 60%;
+  width: 100%;
 }
 .skills__iot {
-  width: 70%;
+  width: 100%;
 }
 .skills__html {
-  width: 95%;
+  width: 100%;
 }
 .skills__css {
-  width: 85%;
+  width: 100%;
 }
 .skills__python {
-  width: 60%;
+  width: 100%;
 }
 .skills__js {
-  width: 80%;
+  width: 100%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -511,4 +511,26 @@ img {
   flex-direction: column;
   justify-content: center;
   margin-left: 42%;
+}
+
+@media (max-width : 767px) {
+  .container-contact{
+    margin-left: 30%;
+  }
+}
+
+
+
+.icon-es {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+
+}
+
+.work-text {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 0.5em;
 }
